@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../assets/fonts/icons.eot?7l4jem');
+  src:  url('../assets/fonts/icons.eot?7l4jem#iefix') format('embedded-opentype'),
+    url('../assets/fonts/icons.ttf?7l4jem') format('truetype'),
+    url('../assets/fonts/icons.woff?7l4jem') format('woff'),
+    url('../assets/fonts/icons.svg?7l4jem#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check-circle{
+  position: relative;
+}
+
+.icon-check-circle .path1:before {
+  content: "\e900";
+  color: rgb(79, 152, 1);
+  opacity: 0.8;
+}
+.icon-check-circle .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 100%;
+  translate: transformX(-50%);
+  z-index: 2;
+}
+.icon-check-square:before {
+  content: "\e902";
+  color: #4f9801;
+}
+.icon-close .path1:before {
+  content: "\e903";
+  color: rgb(255, 255, 255);
+}
+.icon-close .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(213, 33, 33);
+  opacity: 0.8;
+}
